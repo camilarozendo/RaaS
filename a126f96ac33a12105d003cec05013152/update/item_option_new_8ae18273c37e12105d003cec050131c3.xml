@@ -10,7 +10,7 @@
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
-        <default_value>Select a rating between 1 and 10</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -27,7 +27,7 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table>x_1540762_raas_review</list_table>
@@ -38,7 +38,7 @@
         <lookup_value>rating</lookup_value>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-06 18:42:54</sys_created_on>
         <sys_id>8ae18273c37e12105d003cec050131c3</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>your_rating</sys_name>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>What is your rating?</sys_name>
         <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
         <sys_update_name>item_option_new_8ae18273c37e12105d003cec050131c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 20:16:32</sys_updated_on>
+        <sys_updated_on>2025-01-06 20:38:01</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
