@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 14:18:12</sys_created_on>
+        <sys_id>101a2d76c3ba52105d003cec0501312d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1540762_raas_media.x_1540762_raas.administrator</sys_name>
+        <sys_package display_value="RaaS" source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_security_acl display_value="x_1540762_raas_media">101a2d76c3ba52105d003cec05013111</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_101a2d76c3ba52105d003cec0501312d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:18:12</sys_updated_on>
+        <sys_user_role display_value="x_1540762_raas.administrator" name="x_1540762_raas.administrator">a926f96ac33a12105d003cec0501317b</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

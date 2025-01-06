@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="RaaS - Review as a Service">896976f2c33292105d003cec0501314e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Director</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1540762_raas_genre</name>
+        <order>500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1540762_raas.administrator,x_1540762_raas.moderator</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 20:02:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fc8b2f2c33292105d003cec05013120</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Reviews</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS" source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name>sys_app_module_7fc8b2f2c33292105d003cec05013120</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 20:06:55</sys_updated_on>
+        <timeline_page/>
+        <title>Reviews</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS">a126f96ac33a12105d003cec05013152</application>
+        <file_path/>
+        <instance_id>557fba891bb27114fe1b43f4bd4bcb07</instance_id>
+        <instance_name>dev226181</instance_name>
+        <name>sys_app_module_7fc8b2f2c33292105d003cec05013120</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="RaaS - Review as a Service">896976f2c33292105d003cec0501314e</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Director</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1540762_raas_genre</name><order>500</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1540762_raas.administrator,x_1540762_raas.moderator</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-03 20:02:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7fc8b2f2c33292105d003cec05013120</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Reviews</sys_name><sys_overrides/><sys_package display_value="RaaS" source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package><sys_policy/><sys_scope display_value="RaaS">a126f96ac33a12105d003cec05013152</sys_scope><sys_update_name>sys_app_module_7fc8b2f2c33292105d003cec05013120</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-03 20:06:55</sys_updated_on><timeline_page/><title>Reviews</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>209313768</payload_hash>
+        <record_name>Reviews</record_name>
+        <reverted_from/>
+        <source>ed26f96ac33a12105d003cec0501316f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 20:06:55</sys_created_on>
+        <sys_id>a4e97a36c33292105d003cec0501312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1942dc72ecd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 20:06:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6ce97a3678329210896bf5839f8a752a</update_guid>
+        <update_guid_history>6ce97a3678329210896bf5839f8a752a:209313768,9629b2f214329210347cefb48cabf942:1775408458,9629b2f214329210347cefb48cabf942:1775408458,22e8fe322f32921029466da5e92ac6a0:-26014815,3fc8b2f29b3292101562ddf545433022:-1742381773</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reviews">31f9b6f2c33292105d003cec05013195</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 20:07:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4dda2c4c4e4c410aa6b75d6c9c5b0351</sys_id>
+        <sys_metadata>7fc8b2f2c33292105d003cec05013120</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reviews</sys_name>
+        <sys_package display_value="RaaS" source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_scope_delete display_value="">e1c6fd6ccbd245a0bf0a59adeb8d4b04</sys_scope_delete>
+        <sys_update_name>sys_app_module_7fc8b2f2c33292105d003cec05013120</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7fc8b2f2c33292105d003cec05013120">a4e97a36c33292105d003cec0501312b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 20:07:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
