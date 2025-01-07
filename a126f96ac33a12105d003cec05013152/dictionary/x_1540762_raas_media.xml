@@ -21,6 +21,6 @@
         <element label="Poster" max_length="1000" name="poster" type="url"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element label="Genre" max_length="1024" name="genre" reference="x_1540762_raas_genre" type="glide_list"/>
-        <element label="Website" max_length="40" name="website" type="url"/>
+        <element label="Website" max_length="1000" name="website" type="url"/>
     </element>
 </database>
