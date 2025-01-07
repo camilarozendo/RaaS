@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2138000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>calculate_media_average_rating</internal_name>
+        <label_cache>[{"name":"subflow.media","label":"Input➛Media","reference":"x_1540762_raas_media","reference_display":"Media","type":"reference","base_type":"reference","usedInstances":{"29a9fee4-3e52-4d40-805e-b7252d1e111b":["record"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6f580f59-d9c4-4d54-889a-f80911cf5ff3","uiTypeLabel":"Reference"}},{"name":"e578ec46-7f86-4f3d-abd4-fc1d11609eee.Records","label":"2 - Look Up Records➛Review Records","reference":"x_1540762_raas_review","reference_display":"Review","type":"records","base_type":"records","usedInstances":{"e41c671d-7f04-4024-b253-adc7ff3ab4d5":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.media.sys_id","label":"Input➛Media➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1540762_raas_media","column_name":"sys_id","usedInstances":{"e578ec46-7f86-4f3d-abd4-fc1d11609eee":["conditions"]}}]</label_cache>
+        <master_snapshot>70fe9b8cc38792105d003cec050131b3</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Calculate Media Average Rating</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:25:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ec61b0cc34792105d003cec05013106</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Calculate Media Average Rating</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name>sys_hub_flow_7ec61b0cc34792105d003cec05013106</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ec61b0cc34792105d003cec05013106"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7ec61b0cc34792105d003cec05013106"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7ec61b0cc34792105d003cec05013106"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7ec61b0cc34792105d003cec05013106^sys_idNOT IN72c61b0cc34792105d003cec05013109"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7ec61b0cc34792105d003cec05013106</id>
+        <name>Calculate Media Average Rating</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:25:39</sys_created_on>
+        <sys_id>72c61b0cc34792105d003cec05013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 19:25:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=72c61b0cc34792105d003cec05013109"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7ec61b0cc34792105d003cec05013106^sys_idNOT INdeac1f04c38792105d003cec05013146"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6f580f59-d9c4-4d54-889a-f80911cf5ff3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1540762_raas_media</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>media</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Media</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</model>
+        <model_id>7ec61b0cc34792105d003cec05013106</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7ec61b0cc34792105d003cec05013106</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1540762_raas_media">x_1540762_raas_media</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:51:17</sys_created_on>
+        <sys_id>deac1f04c38792105d003cec05013146</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 19:51:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=deac1f04c38792105d003cec05013146"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7ec61b0cc34792105d003cec05013106"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ec61b0cc34792105d003cec05013106"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7ec61b0cc34792105d003cec05013106"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7ec61b0cc34792105d003cec05013106^sys_idNOT IN2eacdbc8c38792105d003cec05013123,56acdbc8c38792105d003cec05013120"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:51:18</sys_created_on>
+        <sys_id>2eacdbc8c38792105d003cec05013123</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:16:00</sys_updated_on>
+        <ui_id>29a9fee4-3e52-4d40-805e-b7252d1e111b</ui_id>
+        <values>H4sIAAAAAAAA/+VW227bOBD9FUJP29SrSHaStu5T0DTYBdoGaBZ5qQuBEkc2W4rU8uLaa/jfd3iR4k2KNAX6EqxfDM6N58yckfRpl3GWzbMTYEX5qjxrZuVsNi2K6cuTsj6b1eWUzShAmU0ySTvASA2N0gzPayqcN+x2xtWtUN/yDhin+z36GDe9oNubFIKWZsUF0yCz+afPk6ynGqtZ0Nl8d8f1WDiC1iAw9OOA5y4+u+39manGdSBtxQfju5R5kTzkzwv0YJKHUxaTDDYWJAME0lJhYJJ1VDJqld5mc6sdGjRQdiXFdoxYcWkj0Y5uDP8Hbz4pfFwLyKxJTRiPVWpQNLcX1NJrrNxYp8d+Kd6AiT1h0FIn7JtDWwy46i1XMqZYWoshWwnXyQ+xI9lY4GAeziAI6D1PjzzSaq9X6tvHAeQll6EliaJQDRXjiVqree2sh7PLQEDocUf7nstl1Wu15iEZoXT5UuAh9xrBOw1fypw2HneOXaX5JdovgvmGau5JvMcymLyfZGZr3ghqzC0V7GH1t/NIIrFEoQpdCC2oghJ8cqN5b8/xqjUk4PtJEnx9+pDCmle3gjqoeSv6TVWenhQvzqaVptRUQfn3df8+mX9O/I+ANoj/rzDy70NN+r9ne3eYSz5ER1L/6S9T/8unpP5E48nL/0eiL6YPPlYPlBR0bg4ET9eg6RJQ7hYZLlxRzFjLfo+3Abuv/R8n/NxWPAL7sBWXHAQz3yEzrAR0iNRCFcndWYvkJDfJOb4YftlulGdF+D2hDfkfvB8ixWjzmP8rYG95KD47PlrIo6PzBgdgiId8fB44EM+BOIM1iF0BaVkVLKr+Ao3NyXUoQDpnLNGAA5aEkiDMnPiKV15+RLquxj9uiGpbA5bUW/K8JFySt1orTf5AHQp/xTXEzgUwa8pFeMqrIANDkqyI6xFYrxGqz1lk+SIjtMXlG+D5dNhQXAWYIxpNzEppi1NoSFzlITDHMS+XoPPGaVSFzUOgH2Pghbe+9rUSs7GKNx4vpK+MKFB6d8sGMaA7j+2vjOvI8eitplUllPpaub6KH3wmb5STFuumq2LZ3KpLvgH22/TZa5SDwaGyUeX7/f7zv4Rdh0sBCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:51:18</sys_created_on>
+        <sys_id>56acdbc8c38792105d003cec05013120</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:16:00</sys_updated_on>
+        <ui_id>e578ec46-7f86-4f3d-abd4-fc1d11609eee</ui_id>
+        <values>H4sIAAAAAAAA/+VX227bMAz9lcDPRmDXSdr1bWhRYEAvQFv0pdsE2pITYYrtSXIuDfLvoyzZMRK3S4YUaLFHkRR1SJ4jy88rj1Pv3DtLB0EA4fDsNAiiKAhGoyiBMI6jURIH8SD2fC+DKcNIDbFguJyBKM16QcLhIDgdnRAJoIhkM87m6KdcFQKWTy7svrYnEy6oZJl3/vzD9wqQmFYz6Z2vtlz74hIQM4Ghjw7YFk69LJolqXzWdt3e1ru1jlxSAyXwPbbQLKMMMaQgFPO9KWQUdC6XjUUyoHeZ2BgmPNOY0TPBC8Vf8NyzwMSlDKtKmPU1S+JaZM3pJWh40LJMdCldaDLJecKU7QdlKZRCX7RtNuCu0DzP7BZbtt2di3Ka3dp2eE2CeiJoKRWCYIUp1CB3ZaQPk3x+X6O84lnVE+cUeQKiWYHWkselNnhWHhNsionIFIqCZ2NSyHzGq82IZdofC1z0U5HP8VDFx1kfEgO8j32F/hXaLyvzE0huqrjBNLgZAXGBDCF2hCovZdXKGUlEqSqHhEzZXN7a99RSXQhQalM5tpz8Lg1u2wdXMbFNM1sSyQv9FVPMmCtu7e8ljWGwoVySZ5QbFKqljymjHPqIiXD6vcQUdLVSZWza0G/71uufSoNmNibaVdC/Jzqm5Kp6a8ldtAvuaoIT347tuiuBE194NPFhHZ9Jfnj4x1Pf4XqyLfiLqJLTN0k23PBJ5VIT28uWqnblcTDP94BQ8/zOMLMXL19D5WieciZo1zfmyji2vjEn/+c35kOSHAFRYqfHM8Gz6sGAQN+L/cHbV+yXLZ5V9Npwv7KBSnY1AD2d914OVsIecGolPODZvUeLpwNifd9XlNm+62ujE0B0NAFEJ8cRwKops2lkR8/rN6KZZh3/YuJhOx4p2NoQrrsEdtCZ4aFnnqx3BRwdpOA22azn8hXOHfkx+Yoi/fe8Aia41Z1HrH7JnNMx05vT6yia6zmIX11+xzhSD6oq7x0epoM3ZTsKNxJFpeCPmcLhtV+mIT6Pdu+Q0Lfmw66QPbDU7biBRe++AdOJ0F0jqHQ2rmbTvke+NVZH8sERH4wf9ktaD6tTg/XMPsX/3PGE8OMPHsSrE74QAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7ec61b0cc34792105d003cec05013106"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7ec61b0cc34792105d003cec05013106^sys_idNOT IN1eacdbc8c38792105d003cec0501311e,aeacdbc8c38792105d003cec05013121,eeacdbc8c38792105d003cec05013122"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">12acdbc8c38792105d003cec0501311e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</flow>
+        <flow_variables_assigned>rating_sum</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:51:18</sys_created_on>
+        <sys_id>1eacdbc8c38792105d003cec0501311e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:17</sys_updated_on>
+        <ui_id>2f4f833f-8ff6-4727-be9d-e9ec141985dc</ui_id>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8lYJnW6AsKXV8C1AEMNA0QOLkUgTCilrZRClS4cOOa/jfu5RkJ0jaDyiQmzi73JkdDnRgJvgueLcyV87JtWaLn08TJnXE6PvANLTIFsyCl3pdutCyCduCChHk9F1L1ynYP76BxEaq2uI4qwNLIzxatji8K/l9h6WCChXdXGqPa+oi9pqO6QWIuhJzkc2/Xs5SXtScZwIFL3iapbyivtPNu17bl/uHGwL/pjfyECbPDMbWUQ+fMHzxqGskxgaUwwlrQdfgjd2fEYtQ32r1CmxoEI1jsfnFyd80O+exr0FaTeBQOx/L0aIBFhsjBd52Xho9IB4qNd4RRoVW/xhWiOZiA0H5k7mEBEfzsIuao4hRUXO/Mbu7E+G11P16Y1EZAep8Au+trIJHF98jyNV7bwbo+4dXQYUtcZYtdF20trNmK3sekt0ma0WHpFFmR/pikhIQcceE3ITkmvBvPfwIVsaFb2jMyPeg5XPAZXz1PIV0ljcwzZpsNs2hyadQ8GaaF9VFxbPLIqvm7NibWz6HuNZg02hIOXhKDU5Y2fkrkrDFcffjU0zuwD5kuw/aPzLzmfHPjP+fGa9RSEeqVlHC8vQnj4U9BUeKt9DO2F9xn1fs+Ad9dpc1EwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e6acdbc8c38792105d003cec05013121</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:51:18</sys_created_on>
+        <sys_id>aeacdbc8c38792105d003cec05013121</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:17</sys_updated_on>
+        <ui_id>e41c671d-7f04-4024-b253-adc7ff3ab4d5</ui_id>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj8yN8mtwFCgh61AV/QyFAYtUYkwWdIkOaln+L+Pip106HEnm4/k43siR2b76PoYXux9COpg2P7n24opkzD6H5mBDtmeqYhdYCt2At2neBzxy90W+aZe38ltvd7ISqyhFZu15IUoijrfIWL2jNx6EaaJWoUKTsPw+v8M/Ki08LiIdOBJW0TP9uOnVBwcNhpa1DRoYaB+JSgsdkLuinzHq7Kuyjwvt5uirau2KEUFKGqqu3Y+LqY/vUFip9DfeOmTVJT5iuF7RCOQBknQAVesAyMgWj+wffQ9AR5BPBk93CqOykSiY6n2Pag/xF3keSqUSI44zslb2CwPOcP8aBXHJxeVNTMSodVLD7e678z3WX5aAUrodbyugJA+EB+6pDmpWCTJH0d7fr4OfFDm4m9JastB3yKI0au2jxjSGlBjR0RNB84pc2ictyd1aSYtXXbQFGRS2zMNTeeWAU/CM3oiyB4I/3qBX8Gr5OIb0VDzdHHf/O7T3NnHoriZTVNB4F65eE90J1zETW/pXmemMB+GQK4CDXxJ2OP1ylNioCUr/i90tv5XkvqBTX8BICA2ji8DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2aacdbc8c38792105d003cec05013122</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</flow>
+        <flow_variables_assigned>rating_sum</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>e41c671d-7f04-4024-b253-adc7ff3ab4d5</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:51:18</sys_created_on>
+        <sys_id>eeacdbc8c38792105d003cec05013122</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:17</sys_updated_on>
+        <ui_id>d48668fc-691b-47ce-9118-6d55c572a8d4</ui_id>
+        <values>H4sIAAAAAAAA/+1WTU8bMRD9K5ZPfCTLhiQUwilSi4pUikSAS4NWXu9s4tZrL/4AUpT/3rF3N0H049pLTlk/j2feex6P8kq1d7V39lZPrRULRSffHnpUqIDh9ytVrAI6oYY5oRaZ9RXt0ScmfQDxsxC2lmx1v0X4UsjCQJupZgYTODB08vpuy61qyCTLQeLBS+VggVFYu8Dl4ITxIuenfHj64ex4kI6LNB1y4Ok4HQwHaY5x3cmbyIzM7q4Q/BPbUAcxsamgTRH4pD0KLw5UAVixZNJCj1ZMFcxps9ogBlhxreQWWGKiRmnFXqz4iblHaYgrAaXx1oXNMmsd6szRgsN17YRWDeJYLjvntPSV+tpICN5Cybx0b7z1FvNBHTgHEi2jcrbUzzddwQuhorx2U2rO5GbFnDMi9w5suA8vbt9700BffrsVkFBhzaxidR2srY1+ErEO0q6ShcRFUkr9jPxCHyWMB40JusmSC8Q/RvieGREEX2Gatt6dEo8eLsOtjwZscDwqWX9YDo/7I1aO+myclv3ROD/J0+HZeJif0nU0N3v0QVZjU2tI1niKAZYbUbspUnhCec546LAg+0134OpfsfToYK4ODqacg7UkyDiaRl0k6CLehs5zSyBlkUVE59+Bu4TMYgJSeeuIAeeNIozEZ5OQkPE6tCBRvsrxR1iiy9KCI/mKHA6IUOSTMdqQz9iNMjY3NG5GMk9MyOAh0bGNLGk7jPgaidUGqYYzc5rMKWElvr2OXjgOL6yqJUyQjSF2qY3Dm+Fk7vGBFV1ggl2ywItPuDfYVC6JgeFqoy6seh5ytco2WQJ4NFct3OWKXYHVkq3v5JDgYLCA/bXXhWXDLCu1yYDxZSIcVG184vQM6ajF3v7+OV2v1w9hADVt1IyoODH+8vh3o2o3qnajajeq/tuoKoALiyxugw+X3f+qsLHCCSD4W+hZmx+BwhZb/wLQPjAyoQkAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7ec61b0cc34792105d003cec05013106"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7ec61b0cc34792105d003cec05013106^sys_idNOT IN16acdbc8c38792105d003cec0501310b"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=41a124fa-3f32-4af4-a50f-45b6b03953b8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rating_sum</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Rating SUM</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</model>
+        <model_id>7ec61b0cc34792105d003cec05013106</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_7ec61b0cc34792105d003cec05013106</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:51:18</sys_created_on>
+        <sys_id>16acdbc8c38792105d003cec0501310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 19:51:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7ec61b0cc34792105d003cec05013106^sys_idNOT INdeac9bc8c38792105d003cec050131ed"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>media</element>
+        <help/>
+        <hint/>
+        <label>Media</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7ec61b0cc34792105d003cec05013106</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 19:51:17</sys_created_on>
+        <sys_id>deac9bc8c38792105d003cec050131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 19:51:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7ec61b0cc34792105d003cec05013106"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7ec61b0cc34792105d003cec05013106"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7ec61b0cc34792105d003cec05013106"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>calculate_media_average_rating</internal_name>
+        <label_cache>[{"name":"subflow.media","label":"Input➛Media","reference":"x_1540762_raas_media","reference_display":"Media","type":"reference","base_type":"reference","usedInstances":{"29a9fee4-3e52-4d40-805e-b7252d1e111b":["record"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6f580f59-d9c4-4d54-889a-f80911cf5ff3","uiTypeLabel":"Reference"}},{"name":"e578ec46-7f86-4f3d-abd4-fc1d11609eee.Records","label":"2 - Look Up Records➛Review Records","reference":"x_1540762_raas_review","reference_display":"Review","type":"records","base_type":"records","usedInstances":{"e41c671d-7f04-4024-b253-adc7ff3ab4d5":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.media.sys_id","label":"Input➛Media➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1540762_raas_media","column_name":"sys_id","usedInstances":{"e578ec46-7f86-4f3d-abd4-fc1d11609eee":["conditions"]}}]</label_cache>
+        <master>true</master>
+        <name>Calculate Media Average Rating</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70fe9b8cc38792105d003cec050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:17</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=70fe9b8cc38792105d003cec050131b3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=70fe9b8cc38792105d003cec050131b3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=70fe9b8cc38792105d003cec050131b3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=70fe9b8cc38792105d003cec050131b3^sys_idNOT IN30fe9b8cc38792105d003cec050131b4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>70fe9b8cc38792105d003cec050131b3</id>
+        <name>Calculate Media Average Rating</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:17</sys_created_on>
+        <sys_id>30fe9b8cc38792105d003cec050131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=30fe9b8cc38792105d003cec050131b4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=70fe9b8cc38792105d003cec050131b3^sys_idNOT INf0fe9b8cc38792105d003cec050131b5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6f580f59-d9c4-4d54-889a-f80911cf5ff3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1540762_raas_media</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>media</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Media</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Calculate Media Average Rating">70fe9b8cc38792105d003cec050131b3</model>
+        <model_id>70fe9b8cc38792105d003cec050131b3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_70fe9b8cc38792105d003cec050131b3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1540762_raas_media">x_1540762_raas_media</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:17</sys_created_on>
+        <sys_id>f0fe9b8cc38792105d003cec050131b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f0fe9b8cc38792105d003cec050131b5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=70fe9b8cc38792105d003cec050131b3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=70fe9b8cc38792105d003cec050131b3"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=70fe9b8cc38792105d003cec050131b3"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=70fe9b8cc38792105d003cec050131b3^sys_idNOT IN41fe9b8cc38792105d003cec050131ef,45fe9b8cc38792105d003cec050131f0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">70fe9b8cc38792105d003cec050131b3</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:18</sys_created_on>
+        <sys_id>41fe9b8cc38792105d003cec050131ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <ui_id>e578ec46-7f86-4f3d-abd4-fc1d11609eee</ui_id>
+        <values>H4sIAAAAAAAA/+VX227bMAz9lcDPgWHXSdr1bWhRYEAvQFv0pdsE2pITYYrtSXIuDfLvoyzZMRK3S4YUaLFHkRR1SJ4jy88rj1Pv3DtLB0EA4fDsNAiiKAhGoyiBMI6jURIH8SD2+l4GU4aRGmLBcDkDUZr1goTDQXA6OiESQBHJZpzN0U+5KgQsn1zYfW1PJlxQyTLv/PlH3ytAYlrNpHe+2nLti0tAzASGPjpgWzj1smiWpPJZ23V7W+/WOnJJDZSg77GFZhlliCEFoVjfm0JGQedy2VgkA3qXiY1hwjONGT0TvFD8Bc89C0xcyrCqhFlfsySuRdacXoKGBy3LRJfShSaTnCdM2X5QlkIp9EXbZgPuCs3zzG6xZdvduSin2a1th9ckqCeCllIhCFaYQg1yV0b6MMnn9zXKK55VPXFOkScgmhVoLXlcaoNn5THBppiITKEoeDYmhcxnvNqMWKb+WODCT0U+x0MVH2c+JAa4j30F/wrtl5X5CSQ3VdxgGtyMgLhAhhA7QpWXsmrljCSiVJVDQqZsLm/d99RSXQhQalM5tpz8Lg1u2wdXMbFNM1sSyQv9FVPMmCtu3d9LGsNgQ7kkzyg3KFRLH1NGOfiIiXD6vcQUdLVSZWza4Ld96/VPpUEzGxPtKujfEx1TclW9teQu2gV3NcGJb8d23ZXAiS88mviwjs8kPzz846nvcD3ZFvxFVMnpmyQbbvikcqmJ7WVLVbvyOJjne0CoeX5nmNmLl6+hcjRPORO06xtzZRxb35iT//Mb8yFJjoAosdPjmeBZ9WBAoO/F/uDtK/bLFs8qem24X9lAJbsagJ7Oey8HK2EPOLUSHvDs3qPF0wGxvu8rymzf9bXRCSA6mgCik+MIYNWU2TSyo+f1G9FMs45/MfGwHY8UbG0I110CO+jM8NAzT9a7Ao4OUnCbbNZz+QrnjvyYfEWR/fe8Aia41Z1HrH7JnNMx05vT6yia6zmIX11+xzhSD6oq7x0epoM3ZTsKNxJFpeCPmcLhtV+mIT6Pdu+Q0Lfmw66QPbDU7biBRe++AdOJ0F0jqHQ2rmbTvke+NVZH8sERH4wf9ktaD6tTg/XMPsX/3PGE8OMPPSGx374QAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">70fe9b8cc38792105d003cec050131b3</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:18</sys_created_on>
+        <sys_id>45fe9b8cc38792105d003cec050131f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <ui_id>29a9fee4-3e52-4d40-805e-b7252d1e111b</ui_id>
+        <values>H4sIAAAAAAAA/+VW227bOBD9FUJP29SrSHaStu5T0DTYBdoGaBZ5qQuBEkc2W4rU8uLaa/jfd3iR4k2KNAX6EqxfDM6N58yckfRpl3GWzbMTYEX5qjxrZuVsNi2K6cuTsj6b1eWUzShAmU0ySTvASA2N0gzPayqcN+x2xtWtUN/yDhin+z36GDe9oNubFIKWZsUF0yCz+afPk6ynGqtZ0Nl8d8f1WDiC1iAw9OOA5y4+u+39manGdSBtxQfju5R5kTzkzwv0YJKHUxaTDDYWJAME0lJhYJJ1VDJqld5mc6sdGjRQdiXFdoxYcWkj0Y5uDP8Hbz4pfFwLyKxJTRiPVWpQNLcX1NJrrNxYp8d+Kd6AiT1h0FIn7JtDWwy46i1XMqZYWoshWwnXyQ+xI9lY4GAeziAI6D1PjzzSaq9X6tvHAeQll6EliaJQDRXjiVqree2sh7PLQEDocUf7nstl1Wu15iEZoXT5UuAh9xrBOw1fypw2HneOXaX5JdovgvmGau5JvMcymLyfZGZr3ghqzC0V7GH1t/NIIrFEoQpdCC2oghJ8cqN5b8/xqjUk4PtJEnx9+pDCmle3gjqoeSv6TVWenhQvzqaVptRUQfn3df8+mX9O/I+ANoj/rzDy70NN+r9ne3eYSz5ER1L/6S9T/8unpP5E48nL/0eiL6YPPlYPlBR0bg4ET9eg6RJQ7hYZLlxRzFjLfo+3Abuv/R8n/NxWPAL7sBWXHAQz3yEzrAR0iNRCFcndWYvkJDfJOb4YftlulGdF+D2hDfkfvB8ixWjzmP8rYG95KD47PlrIo6PzBgdgiId8fB44EM+BOIM1iF0BaVkVLKr+Ao3NyXUoQDpnLNGAA5aEkiDMnPiKV15+RLquxj9uiGpbA5bUW/K8JFySt1orTf5AHQp/xTXEzgUwa8pFeMqrIANDkqyI6xFYrxGqz1lk+SIjtMXlG+D5dNhQXAWYIxpNzEppi1NoSFzlITDHMS+XoPPGaVSFzUOgH2Pghbe+9rUSs7GKNx4vpK+MKFB6d8sGMaA7j+2vjOvI8eitplUllPpaub6KH3wmb5STFuumq2LZ3KpLvgH22/TZa5SDwaGyUeX7/f7zv4Rdh0sBCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=70fe9b8cc38792105d003cec050131b3"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=70fe9b8cc38792105d003cec050131b3^sys_idNOT IN41fe9b8cc38792105d003cec050131ed,c1fe9b8cc38792105d003cec050131ee,cdfe9b8cc38792105d003cec050131eb"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e6acdbc8c38792105d003cec05013121</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">70fe9b8cc38792105d003cec050131b3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:18</sys_created_on>
+        <sys_id>41fe9b8cc38792105d003cec050131ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <ui_id>e41c671d-7f04-4024-b253-adc7ff3ab4d5</ui_id>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L34miI8cTfJWtapU6e4qpVVfThVa7CWxzticbZJyiP9+60Bo1cd7gh3vzs4MZmCm823n3Yu5dU4eNNv9eouY1AGj94FpaJDtmPTYOBaxE6gu1MOA3242yNfF6qbeFKt1nYsVVGK9qnkq0rRItogY75EbK9w40qiQrlXQv/4/Az9KJSzOIluwpM2jZbvhy5EUtCDdinqbJlueZ0WeJUm2WadVkVdpJnJAURChggoVtT7O7r6Y9X0bSjtJmIHv88x+QekRRGRJxPDdoxZI62tQDiPWgBbgje3ZztuOAIsgnrTql46j1J7oWOh9d/IvbUyTJDTWSIY4TodLWc45TnB9Dx6eiZr7zs6t/GgkRzdFIbCGTvm7z9jU8NR6afQ04qFS12mjukb/nJJgC8H1sxHSORKBbTAapM8+6uejOe+vKh+kvoQyHyrDQS0VeG9l1fmgZ2CosCGisoG2lfpQttac5GWYtDTxQVER18qcaWm4ojHwIDymXCF+IPz+Ar+ClcHFD6Kh4TFirnd3Cpz78EIhln+6oGRyNnsopxjCCLey9be04ISz3PEt3PqJe8mUS0cSXgL2eP1XwkFPN0jyz9DZ2N9B/Ac2/gMiM8RDdQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2aacdbc8c38792105d003cec05013122</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">70fe9b8cc38792105d003cec050131b3</flow>
+        <flow_variables_assigned>rating_sum</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>e41c671d-7f04-4024-b253-adc7ff3ab4d5</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:18</sys_created_on>
+        <sys_id>c1fe9b8cc38792105d003cec050131ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <ui_id>d48668fc-691b-47ce-9118-6d55c572a8d4</ui_id>
+        <values>H4sIAAAAAAAA/+1W204bMRD9FctPXJJlQxIK4SmCoiKVIhHgpUGrWa83ceu1F18CaZR/73gvSUTVfkCVp6yP53LmzHiUFdXeld7ZRz22VswUHX1/6VChAobfKyoyOqK0QxUUHL8MOKFmifUFYguQntfXmbClhOXzFmFzITPDm4glGAzguKGj1YerKkPvDFiWsnPWP/90cdqLh1kc9xln8TDu9XtxigElpFyi6UNFgUye7v5Cyy3LgAnl+AwT1sDXxvt2g2qTBTpxh/J3x1XGkUcO0vIOLUBl4LRZbhDDIbtXcgvMMXxdaAHvVvzCjIM42OUcK2ONCJtj0ghUw/k1OJg445nzZqOXFozbWpOM5+Clu9rFaoP70gmtahcHqWy9tfSF+larQTcBdvrhLZLgZSg0MG/KyCdz/fbQsrwRqtKkuZSagdycwDkjUu8CnxX14vGjzDX0p9Bc8gJzJgWUZehSafRCVHmQdhHNJB6iXOo35BdmMAIWaoywBRDdIH5dwc9gRCj4DsM0+Z6UePX8NgzQoAe900EO3X7eP+0OIB90YRjn3cEwPUvj/sWwn57TdYfapb2SYO1WKuxR8upDobVwjURJrXJwYUaUboykFuiCXeMtFoTYGT08/cuWnhxN1dHRmGFLLQmFnYyrSkmolHgbxtrNOcmzpEJ0+oMzF5FJFYAU3jpiOI6MIkCqxxeREPE+TDJRvkjxR1ii89xyR9IlOe4RochnY7QhX3CoZfVyeK1vRWYBQgZVia4Gy5JmUIkvkVhpkGrwmdJoSgnk+IJbesGdv0NRSj5CNobYuTYOe8XI1OPrzVrDCOdmhqMQMW9wzFxUGYZmV3Vh1ssQq6lsEyWAJ1PVwG2sak4wW7TVnRwTXC+W48QdtGZJP0lybRIObB4Jx4vGPnIa3x1+HBweXtL1ev0S1lg9WPuFt194+4W3X3j//cLLOBMWWTwGHW7b/3rhYonrRbBd6E2bn4HCFlv/BnLX2pk1CgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">12acdbc8c38792105d003cec0501311e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate Media Average Rating">70fe9b8cc38792105d003cec050131b3</flow>
+        <flow_variables_assigned>rating_sum</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:18</sys_created_on>
+        <sys_id>cdfe9b8cc38792105d003cec050131eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <ui_id>2f4f833f-8ff6-4727-be9d-e9ec141985dc</ui_id>
+        <values>H4sIAAAAAAAA/+2V227iMBCGX2Xla0AOCV3KXdWqElK7lQrtzapCE9sBq46d+gBlEe++4zgc1Gr3Cbizv7Fn/vltyztigm+Cd3Nz45xcajL5/dYjUkeG4x2RnEwI6RENtcCRBS/1cuFCjWwNKkRIccylaxRsX88QW0nFrehyNmAxhReWTHZfQm2N7AoYL9mY5eOf18OMjjilOROMjmiWZ7TEhApKoXDpcyvix+zl8R/C/LaJTGovllgwgYdu9/RIjeVRDu0R8emF5gJ1VKCc6JEaNAdv7PZIrAD+pNUJrDB98qaGTyf/YMWCxnWVwM6YSLHjdNE5lHB1Bx5m3gbmg+2WspWRTLjkCRcVBOVvz1la8NR4aXTa4qFUh91GhVr/Sm6QY4LDgSAJDkWIJjYalXdtVLOV2TwfVN5L3XrSBZVhoI4z8N7KMvioZ0eCnH+1OaHvRgslaqy5qKFp4ik11qxlWwdl14OlwsmgUmaD+uItHACLPQ7wCGBwj/yuxa9gZWz4EdN09V60/AhiGi9QkUE2LCro51U+7BdQFX0Y0apfjMqrkubXo7wck32PuK27VeDcySo8o8VHiI0m4zqLFsnluIVZ2fgbFLUWnRv7t3j/k57LS7m8lMtL+d9L4YJJhzrnUdT08LvEwBZvpWTnaGPse+zwxPZ/AbBE3MOnBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=70fe9b8cc38792105d003cec050131b3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=70fe9b8cc38792105d003cec050131b3^sys_idNOT IN78fe9b8cc38792105d003cec050131e5"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=41a124fa-3f32-4af4-a50f-45b6b03953b8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rating_sum</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Rating SUM</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Calculate Media Average Rating">70fe9b8cc38792105d003cec050131b3</model>
+        <model_id>70fe9b8cc38792105d003cec050131b3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_70fe9b8cc38792105d003cec050131b3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:18</sys_created_on>
+        <sys_id>78fe9b8cc38792105d003cec050131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_70fe9b8cc38792105d003cec050131b3^sys_idNOT INb4fe9b8cc38792105d003cec050131c2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>media</element>
+        <help/>
+        <hint/>
+        <label>Media</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_70fe9b8cc38792105d003cec050131b3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:18</sys_created_on>
+        <sys_id>b4fe9b8cc38792105d003cec050131c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_70fe9b8cc38792105d003cec050131b3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_70fe9b8cc38792105d003cec050131b3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_70fe9b8cc38792105d003cec050131b3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>7ec61b0cc34792105d003cec05013106</sys_id>
+        <latest_snapshot>70fe9b8cc38792105d003cec050131b3</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7ec61b0cc34792105d003cec05013106"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7ec61b0cc34792105d003cec05013106^sys_idNOT IN05fe9b8cc38792105d003cec050131fd"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"05fe9b8cc38792105d003cec050131fd","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Calculate Media Average Rating">7ec61b0cc34792105d003cec05013106</plan_id>
+        <snapshot>d85263c0c3c792105d003cec05013162</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 20:01:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05fe9b8cc38792105d003cec050131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 20:01:18</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
