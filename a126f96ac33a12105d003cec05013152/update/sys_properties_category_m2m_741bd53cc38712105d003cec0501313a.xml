@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="RaaS">f3f515b4c38712105d003cec050131bb</category>
+        <order>500</order>
+        <property display_value="x_1540762_raas.integration_retry_count" name="x_1540762_raas.integration_retry_count">3188ddb4c38712105d003cec0501311c</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 18:20:33</sys_created_on>
+        <sys_id>741bd53cc38712105d003cec0501313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1540762_raas.integration_retry_count.RaaS</sys_name>
+        <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_741bd53cc38712105d003cec0501313a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 18:20:33</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
