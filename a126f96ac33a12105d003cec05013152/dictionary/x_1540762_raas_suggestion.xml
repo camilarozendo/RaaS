@@ -4,5 +4,12 @@
         <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element label="Title" max_length="250" name="title" type="string"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
+                <element inactive_on_update="false" label="Movie" sequence="1" value="movie"/>
+                <element inactive="true" inactive_on_update="true" label="Episode" sequence="0" value="episode"/>
+            </choice>
+        </element>
     </element>
 </database>

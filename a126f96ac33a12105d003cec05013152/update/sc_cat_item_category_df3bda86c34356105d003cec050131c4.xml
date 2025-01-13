@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Suggestions">2f999e82c34356105d003cec0501312c</sc_cat_item>
+        <sc_category display_value="RaaS">00b2bdbfc3fa12105d003cec050131a5</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:13:17</sys_created_on>
+        <sys_id>df3bda86c34356105d003cec050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RaaS.Suggestions</sys_name>
+        <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name>sc_cat_item_category_df3bda86c34356105d003cec050131c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:13:17</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
