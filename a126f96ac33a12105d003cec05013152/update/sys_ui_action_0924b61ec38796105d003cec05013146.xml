@@ -30,11 +30,46 @@
         <name>Set State as "Completed"</name>
         <onclick>media_completed_button()</onclick>
         <order>100</order>
-        <script><![CDATA[if (current.integration_state == '3') {
-    current.setValue('state', '3');
-    current.update();
-    action.setRedirectURL(current);
-}]]></script>
+        <script><![CDATA[current.setValue("state", "3");
+current.update();
+ 
+var grMedia = new GlideRecord("x_1540762_raas_media");
+grMedia.addEncodedQuery("title=" + current.getValue("title") + "^type=" + current.getValue("type") + "^release_year=" + current.getValue("release_year") + "^sys_id!=" + current.getValue("sys_id"));
+grMedia.query();
+
+while(grMedia.next()) {
+    grMedia.setValue("state", "7");
+    grMedia.setValue("genre", "");
+    grMedia.setValue("release_date", "");
+    grMedia.setValue("category", "");
+    grMedia.setValue("synopsis", "");
+    grMedia.setValue("writers", "");
+    grMedia.setValue("production", "");
+    grMedia.setValue("poster", "");
+    grMedia.setValue("website", "");
+    grMedia.setValue("average_rating", "0");
+    grMedia.setValue("imdb_rating", "0");
+    grMedia.setValue("metascore", "0");
+    grMedia.setValue("awards", "");
+    grMedia.setValue("language", "");
+    grMedia.setValue("country", "");
+    grMedia.setValue("integration_state", "1");
+    grMedia.setValue("integration_error_message", "");
+   
+    var grMediaActor = new GlideRecord("x_1540762_raas_m2m_actor_media");
+    grMediaActor.addEncodedQuery("x_1540762_raas_media=" + grMedia.getValue("sys_id"));
+    grMediaActor.query();
+    grMediaActor.deleteMultiple();
+ 
+    var grMediaDirector = new GlideRecord("x_1540762_raas_m2m_director_media");
+    grMediaDirector.addEncodedQuery("x_1540762_raas_media=" + grMedia.getValue("sys_id"));
+    grMediaDirector.query();
+    grMediaDirector.deleteMultiple();
+ 
+    grMedia.update();
+}
+ 
+action.setRedirectURL(current);]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -45,7 +80,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0924b61ec38796105d003cec05013146</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Set State as "Completed"</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
@@ -53,7 +88,7 @@
         <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
         <sys_update_name>sys_ui_action_0924b61ec38796105d003cec05013146</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 21:41:33</sys_updated_on>
+        <sys_updated_on>2025-01-15 20:54:43</sys_updated_on>
         <table>x_1540762_raas_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
