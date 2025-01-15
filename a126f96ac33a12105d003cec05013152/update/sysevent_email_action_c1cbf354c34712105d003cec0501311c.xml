@@ -38,6 +38,7 @@
         <message/>
         <message_html><![CDATA[<p>Hello ${opened_by.first_name}</p>
 <p>Thank you for your review for the ${media.type} ${media.title}.</p>
+<p>${media.poster}</p>
 <p>It is <strong>approved.</strong></p>
 <p>If you want to send more reviews, click <a href="/sp?id=sc_cat_item&amp;sys_id=4484f173c33e12105d003cec050131f5">here</a></p>]]></message_html>
         <message_list/>
@@ -61,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c1cbf354c34712105d003cec0501311c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Review Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
@@ -69,7 +70,7 @@
         <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
         <sys_update_name>sysevent_email_action_c1cbf354c34712105d003cec0501311c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 14:00:46</sys_updated_on>
+        <sys_updated_on>2025-01-15 15:01:39</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
