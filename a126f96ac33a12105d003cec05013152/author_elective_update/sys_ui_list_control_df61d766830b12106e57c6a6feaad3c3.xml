@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="DELETE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_1540762_raas_m2m_actor_media</name>
+        <new_condition><![CDATA[if(parent.state.toString() == "3") {
+	answer = true;
+} else {
+	answer = false;
+}]]></new_condition>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>false</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>true</omit_new_button>
+        <related_list/>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:29:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df61d766830b12106e57c6a6feaad3c3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_1540762_raas_m2m_actor_media</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_update_name>sys_ui_list_control_df61d766830b12106e57c6a6feaad3c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:39:09</sys_updated_on>
+    </sys_ui_list_control>
+    <sys_es_latest_script action="DELETE">
+        <id>df61d766830b12106e57c6a6feaad3c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:29:10</sys_created_on>
+        <sys_id>cbe197e2830b12106e57c6a6feaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:29:10</sys_updated_on>
+        <table>sys_ui_list_control</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</application>
+        <file_path/>
+        <instance_id>499ef269db85461437d72a5913961959</instance_id>
+        <instance_name>dev246208</instance_name>
+        <name>sys_ui_list_control_df61d766830b12106e57c6a6feaad3c3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_list_control"&gt;&lt;sys_ui_list_control action="INSERT_OR_UPDATE"&gt;&lt;columns_condition/&gt;&lt;disable_nlq&gt;false&lt;/disable_nlq&gt;&lt;edit_condition/&gt;&lt;edit_default_filter/&gt;&lt;edit_roles/&gt;&lt;empty_condition/&gt;&lt;filter_condition/&gt;&lt;filter_roles/&gt;&lt;hierarchical_lists&gt;false&lt;/hierarchical_lists&gt;&lt;label/&gt;&lt;link_condition/&gt;&lt;link_roles/&gt;&lt;list_edit_insert_row&gt;false&lt;/list_edit_insert_row&gt;&lt;list_edit_ref_qual_tag/&gt;&lt;list_edit_type/&gt;&lt;name&gt;x_1540762_raas_m2m_actor_media&lt;/name&gt;&lt;new_condition&gt;&lt;![CDATA[if(parent.state.toString() == "3") {
+	answer = true;
+} else {
+	answer = false;
+}]]&gt;&lt;/new_condition&gt;&lt;new_roles/&gt;&lt;omit_columns_if_empty&gt;false&lt;/omit_columns_if_empty&gt;&lt;omit_count&gt;false&lt;/omit_count&gt;&lt;omit_count_views&gt;false&lt;/omit_count_views&gt;&lt;omit_count_views_list/&gt;&lt;omit_drilldown_link&gt;false&lt;/omit_drilldown_link&gt;&lt;omit_edit_button&gt;false&lt;/omit_edit_button&gt;&lt;omit_filters&gt;false&lt;/omit_filters&gt;&lt;omit_if_empty&gt;false&lt;/omit_if_empty&gt;&lt;omit_links&gt;false&lt;/omit_links&gt;&lt;omit_new_button&gt;true&lt;/omit_new_button&gt;&lt;related_list/&gt;&lt;sys_class_name&gt;sys_ui_list_control&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-15 13:29:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;df61d766830b12106e57c6a6feaad3c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1540762_raas_m2m_actor_media&lt;/sys_name&gt;&lt;sys_overrides display_value=""&gt;global&lt;/sys_overrides&gt;&lt;sys_package display_value="RaaS - Camila R." source="x_1540762_raas"&gt;a126f96ac33a12105d003cec05013152&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RaaS - Camila R."&gt;a126f96ac33a12105d003cec05013152&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_list_control_df61d766830b12106e57c6a6feaad3c3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-15 13:39:09&lt;/sys_updated_on&gt;&lt;/sys_ui_list_control&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;df61d766830b12106e57c6a6feaad3c3&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-15 13:29:10&lt;/sys_created_on&gt;&lt;sys_id&gt;cbe197e2830b12106e57c6a6feaad374&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-15 13:29:10&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_list_control&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-581276483</payload_hash>
+        <record_name>x_1540762_raas_m2m_actor_media</record_name>
+        <reverted_from/>
+        <source>c821cf22838712106e57c6a6feaad3b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:39:09</sys_created_on>
+        <sys_id>5934572a830b12106e57c6a6feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946a307b400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:39:09</sys_updated_on>
+        <type>List Control</type>
+        <update_guid>1134572aac0b1210ab4063b140d8ebcc</update_guid>
+        <update_guid_history>1134572aac0b1210ab4063b140d8ebcc:-581276483,3393d32af20b1210cc60829248cc6347:1461839249,366317e6470b1210bb1e7ba9567f8d67:1874146987,d04353a6f10b1210ac78cbca4bf4e114:-1591462132,aaa213e6980b12104b7640d9f51b5dbb:1579330903,8f62d3a6a60b12101c540cbb6eee23a0:1771359465,5be153a6290b1210a09c657bcd26ce0c:-714084587</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 14:50:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list_control">sys_ui_list_control</sys_db_object>
+        <sys_id>313661981f2d4ae89938ec1f1c3e0c40</sys_id>
+        <sys_metadata>df61d766830b12106e57c6a6feaad3c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1540762_raas_m2m_actor_media</sys_name>
+        <sys_package display_value="RaaS - Camila R." source="x_1540762_raas">a126f96ac33a12105d003cec05013152</sys_package>
+        <sys_parent display_value="Raas M2m Actor Media">ac9fba7ac33292105d003cec05013154</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Camila R.">a126f96ac33a12105d003cec05013152</sys_scope>
+        <sys_scope_delete display_value="">e1c6fd6ccbd245a0bf0a59adeb8d4b04</sys_scope_delete>
+        <sys_update_name>sys_ui_list_control_df61d766830b12106e57c6a6feaad3c3</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_control_df61d766830b12106e57c6a6feaad3c3">5934572a830b12106e57c6a6feaad3cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 14:50:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
